@@ -12,7 +12,7 @@
     "url": "https://github.com/facebook/docusaurus/issues"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "watch": "tsc --watch"
   },
   "publishConfig": {

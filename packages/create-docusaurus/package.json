@@ -13,7 +13,7 @@
   },
   "scripts": {
     "create-docusaurus": "create-docusaurus",
-    "build": "tsc --build",
+    "build": "node init && tsc --build",
     "watch": "tsc --build --watch"
   },
   "bin": "bin/index.js",

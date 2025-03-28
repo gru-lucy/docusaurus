@@ -22,7 +22,7 @@
   },
   "types": "src/plugin-content-docs.d.ts",
   "scripts": {
-    "build": "tsc --build",
+    "build": "node init && tsc --build",
     "watch": "tsc --build --watch"
   },
   "publishConfig": {

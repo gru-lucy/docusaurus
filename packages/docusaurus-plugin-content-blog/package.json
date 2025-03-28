@@ -17,7 +17,7 @@
     }
   },
   "scripts": {
-    "build": "tsc --build",
+    "build": "node init && tsc --build",
     "watch": "tsc --build --watch",
     "test:generate-build-snap": "yarn docusaurus build src/__tests__/__fixtures__/website --out-dir build-snap && yarn rimraf src/__tests__/__fixtures__/website/.docusaurus && yarn rimraf src/__tests__/__fixtures__/website/build-snap/assets && git add src/__tests__/__fixtures__/website/build-snap"
   },

@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsc --build",
+    "build": "node init && tsc --build",
     "watch": "tsc --build --watch",
     "update": "node ./update.mjs"
   },

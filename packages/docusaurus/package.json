@@ -24,9 +24,9 @@
     "docusaurus": "bin/docusaurus.mjs"
   },
   "scripts": {
-    "build": "tsc --build && node ../../admin/scripts/copyUntypedFiles.js",
+    "build": "node init && tsc --build && node ../../admin/scripts/copyUntypedFiles.js",
     "watch": "run-p -c copy:watch build:watch",
-    "build:watch": "tsc --build --watch",
+    "build:watch": "node init && tsc --build --watch",
     "copy:watch": "node ../../admin/scripts/copyUntypedFiles.js --watch"
   },
   "bugs": {

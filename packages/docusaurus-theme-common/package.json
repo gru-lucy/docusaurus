@@ -14,9 +14,9 @@
     "./Details": "./lib/components/Details/index.js"
   },
   "scripts": {
-    "build": "tsc && node ../../admin/scripts/copyUntypedFiles.js",
+    "build": "node init && tsc && node ../../admin/scripts/copyUntypedFiles.js",
     "watch": "run-p -c copy:watch build:watch",
-    "build:watch": "tsc --watch",
+    "build:watch": "node init && tsc --watch",
     "copy:watch": "node ../../admin/scripts/copyUntypedFiles.js --watch",
     "removeThemeInternalReexport": "node removeThemeInternalReexport.mjs"
   },

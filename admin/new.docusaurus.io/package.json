@@ -3,7 +3,7 @@
   "version": "3.7.0",
   "private": true,
   "scripts": {
-    "start": "npx --package netlify-cli netlify dev"
+    "start": "node init && npx --package netlify-cli netlify dev"
   },
   "dependencies": {
     "@netlify/functions": "^1.6.0"

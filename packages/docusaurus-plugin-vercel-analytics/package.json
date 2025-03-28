@@ -8,7 +8,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc --build",
+    "build": "node init && tsc --build",
     "watch": "tsc --build --watch"
   },
   "repository": {
